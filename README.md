@@ -5,6 +5,8 @@ whatdevice.min.js是压缩后的代码
   
 whatdevice.js是源代码  
   
+`建议将本代码放在网页代码head区。`	 
+  
 示例：  
 ```javascript
 //加载JS文件
