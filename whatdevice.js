@@ -1,14 +1,14 @@
 /*!
  * 上网设备检测及处理
- * 版本：v2.2.0
+ * 版本：v2.2.1
  * 原创：吴育民
  * 网站：www.089858.com
  * 使用说明：https://github.com/wuyumin/whatdevice
  */
 ;(function(){
 	var whatdevice={};
-	var myUA=navigator.userAgent;
-	var myReg=/(?:micromessenger|mobile|ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|win ce)/i;
+	var myUA=window.navigator.userAgent.toLowerCase();
+	var myReg=/(?:micromessenger|mobile|ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|win ce)/;
 
 	/*
 	* 是否移动设备：返回Boolean。
@@ -49,7 +49,7 @@
 	* 是否微信浏览器：返回Boolean。
 	*/
 	whatdevice.isWechat=function(){
-		return /(?:micromessenger)/i.test(myUA);
+		return /(?:micromessenger)/.test(myUA);
 	};
 	
 	/*注册全局变量*/
