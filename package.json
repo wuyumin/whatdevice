@@ -1,0 +1,32 @@
+{
+  "name": "whatdevice",
+  "version": "2.2.1",
+  "homepage": "https://github.com/wuyumin/whatdevice",
+  "description": "上网设备检测及处理。支持自动检测并跳转到手机网站或电脑网站，是否手机或电脑访问，是否微信访问等功能。",
+  "keywords": [
+    "whatdevice",
+    "device",
+    "设备",
+    "手机",
+    "电脑"
+  ],
+  "author": {
+    "name": "Yumin Wu",
+    "url": "https://089858.com"
+  },
+  "contributors": [],
+  "main": "whatdevice.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyumin/whatdevice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wuyumin/whatdevice/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-contrib-uglify": "1.0.1"
+  },
+  "license": "MIT"
+}
