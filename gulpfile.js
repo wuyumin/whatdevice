@@ -17,11 +17,11 @@ var gulp = require('gulp'),
 
 // 定义一个scripts任务(可以自定义任务名称)
 gulp.task('scripts', function() {
-    gulp.src('whatdevice.js')
-        .pipe(uglify())
-        .pipe(header(banner, { pkg : pkg } ))
-        .pipe(rename('whatdevice.min.js'))
-        .pipe(gulp.dest('./'));
+    return gulp.src('whatdevice.js')
+           .pipe(uglify())
+           .pipe(header(banner, { pkg : pkg } ))
+           .pipe(rename('whatdevice.min.js'))
+           .pipe(gulp.dest('./'));
 });
 
 // 定义默认任务
