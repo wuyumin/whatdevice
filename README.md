@@ -1,4 +1,5 @@
 ###上网设备检测及处理  
+[![NPM version][npm-image]][npm-url]  
 一个JS文件，支持自动检测并跳转到手机网站或电脑网站，是否手机或电脑访问，是否微信访问等功能。  
   
 whatdevice.min.js是压缩后的代码（正式环境建议使用，省一点带宽）  
@@ -46,3 +47,6 @@ if(!whatdevice.isMobile()){
 
 </script>
 ```
+
+[npm-url]: https://www.npmjs.com/package/whatdevice
+[npm-image]: https://img.shields.io/npm/v/whatdevice.svg
