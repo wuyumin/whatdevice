@@ -8,7 +8,7 @@
 ;(function(){
 	var whatdevice={};
 	var myUA=window.navigator.userAgent.toLowerCase();
-	var myReg=/(?:micromessenger|mobile|ipod|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|win ce)/;
+	var myReg=/(?:micromessenger|mobile|iphone|ipod|android|coolpad|mmp|smartphone|midp|wap|xoom|symbian|j2me|blackberry|windows phone|win ce)/; //小写
 
 	/*
 	* 是否移动设备：返回Boolean。
