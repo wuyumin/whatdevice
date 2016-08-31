@@ -1,6 +1,6 @@
 /*!
  * 上网设备检测及处理
- * 版本：v2.2.1
+ * 版本：v2.2.2
  * 原创：吴育民
  * 网站：www.089858.com
  * 使用说明：https://github.com/wuyumin/whatdevice
