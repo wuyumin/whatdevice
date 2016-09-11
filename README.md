@@ -1,14 +1,18 @@
-###上网设备检测及处理  
+# 上网设备检测及处理
 [![NPM version][npm-image]][npm-url]  
 一个JS文件，支持自动检测并跳转到手机网站或电脑网站，是否手机或电脑访问，是否微信访问等功能。  
   
 whatdevice.min.js是压缩后的代码（正式环境建议使用，省一点带宽）  
-  
 whatdevice.js是源代码  
   
-`建议将本代码放在网页代码head区。`	 
+`建议将本代码放在网页代码head区。`  
   
-示例：  
+### 演示
+访问网址：<https://wuyumin.github.io/whatdevice>  
+扫描二维码  
+![二维码](https://wuyumin.github.io/whatdevice/assets/img/qrcode.png "二维码")  
+
+### 使用方法
 ```javascript
 //加载JS文件
 <script src="whatdevice.min.js"></script>
