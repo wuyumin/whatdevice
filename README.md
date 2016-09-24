@@ -7,6 +7,10 @@ whatdevice.js是源代码
   
 `建议将本代码放在网页代码head区。`  
   
+### 参与开发
+注册并登录 GitHub 帐号，fork 本项目并进行改动。  
+更多细节请参考 [GitHub 上如何参与开源](https://github.com/wuyumin/tutorial/blob/master/zh-cn/Git/pullrequest.md) 这篇文章。  
+
 ### 演示
 访问网址：<https://wuyumin.github.io/whatdevice>  
 扫描二维码  
