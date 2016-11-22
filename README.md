@@ -33,24 +33,34 @@ whatdevice.go2web('电脑网站网址');
 
 //识别手机或电脑
 if(whatdevice.isMobile()){
-	//手机
+    //手机
 }else{
-	//电脑
+    //电脑
 }
 
 //识别微信访问
 if(whatdevice.isWechat()){
-	//微信
+    //微信
 }
 
 //识别手机
 if(whatdevice.isMobile()){
-	alert('你是手机访问的');
+    alert('你是手机访问的');
+}
+
+//识别苹果手机
+if(whatdevice.isiOS()){
+    alert('你是苹果手机');
+}
+
+//识别安卓手机
+if(whatdevice.isAndroid()){
+    alert('你是安卓手机');
 }
 
 //识别电脑
 if(!whatdevice.isMobile()){
-	alert('你是电脑访问的');
+    alert('你是电脑访问的');
 }
 
 </script>
