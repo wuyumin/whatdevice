@@ -1,6 +1,7 @@
-.idea
+# Git过滤文件
+/.idea/
+/node_modules/
 Thumbs.db
 .DS_Store
 *.swp
 npm-debug.log*
-node_modules/
