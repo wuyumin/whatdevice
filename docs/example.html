@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>whatdevice 演示</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+<meta name="format-detection" content="telephone=no,email=no,adress=no">
+<style>
+*{margin: 0 auto;padding: 0;}
+html{-webkit-text-size-adjust: none;font-size: 15px;}
+body{background: #e6e6e6;color: #333;font-family: "helvetica neue",helvetica,arial,sans-serif;}
+img{border: none;}
+a{text-decoration: none;}
+a:focus{outline: none;-moz-outline: none;}
+ul{list-style: none;}
+h3{font-size: 100%;font-weight: normal;}
+.clear:after{display: block;clear: both;content: "";visibility: hidden;height: 0;}
+.clear{zoom: 1;}
+#wrap{max-width: 640px;background: #fff;}
+.title{text-align: center;font-weight: bold;}
+</style>
+
+<!-- 加载whatdevice的JS文件 -->
+<script src="https://wuyumin.github.io/whatdevice/whatdevice.min.js"></script>
+
+</head>
+<body>
+<div id="wrap">
+    <div class="title">whatdevice 演示</div>
+</div>
+
+<script>
+//使用举例，更多使用方法请访问https://github.com/wuyumin/whatdevice
+if(whatdevice.isMobile){
+    alert('你是手机访问的');
+}else{
+    alert('你是电脑访问的');
+}
+</script>
+
+</body>
+</html>

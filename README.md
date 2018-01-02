@@ -1,26 +1,30 @@
 # 上网设备检测及处理
 [![NPM version][npm-image]][npm-url]  
-一个JS文件，支持自动检测并跳转到手机网站或电脑网站，是否手机或电脑访问，是否微信访问等功能。  
+一个JS文件，支持自动检测并跳转到手机网站或电脑网站，是否手机或电脑访问，是否微信访问，是否微信小程序访问等功能。  
   
-whatdevice.min.js是压缩后的代码（正式环境建议使用，省一点带宽）  
-whatdevice.js是源代码  
+whatdevice.min.js 是压缩后的代码（正式环境建议使用，省一点带宽）  
+whatdevice.js 是源代码  
   
-`建议将本代码放在网页代码head区。`  
   
 ### 参与开发
-注册并登录 GitHub 帐号，fork 本项目并进行改动。  
-更多细节请参考 [GitHub 上如何参与开源](https://github.com/wuyumin/tutorial/blob/master/zh-cn/Git/pullrequest.md) 这篇文章。  
+注册并登录 GitHub 帐号，fork 本项目进行参与开发。  
+更多细节请参考《[GitHub 上如何参与开源](https://github.com/wuyumin/tutorial/blob/master/zh-cn/Git/pullrequest.md)》这篇文章。  
 
 ### 演示
-访问网址：<https://wuyumin.github.io/whatdevice>  
+访问网址：<https://wuyumin.github.io/whatdevice/docs/example.html>  
 扫描二维码  
-![二维码](https://wuyumin.github.io/whatdevice/assets/img/qrcode.png "二维码")  
+![二维码](https://wuyumin.github.io/whatdevice/docs/assets/img/qrcode.png "二维码")  
 
-### 使用方法
+### 如何使用
+`建议将代码放在网页代码的 head 区`  
+  
+
+第1步：加载 JS 文件(注：GitHub 链接不稳定，请使用你的 whatdevice.min.js 资源路径)
 ```javascript
-//加载JS文件
-<script src="whatdevice.min.js"></script>
-
+<script src="https://wuyumin.github.io/whatdevice/whatdevice.min.js"></script>
+```
+第2步：使用对应的方法
+```javascript
 <script>
 
 //跳转到手机网站(在电脑网页里使用)
@@ -41,6 +45,11 @@ if(whatdevice.isMobile){
 //识别微信访问
 if(whatdevice.isWechat){
     //微信
+}
+
+//识别微信小程序
+if(whatdevice.isMiniProgram){
+    //微信小程序
 }
 
 //识别手机
