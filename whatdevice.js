@@ -1,10 +1,10 @@
 /*!
- * 上网设备检测及处理
- * 版本：v3.0.0
- * 原创：吴育民
- * 网站：https://089858.com
- * 使用说明：https://github.com/wuyumin/whatdevice
- */
+* 上网设备检测及处理
+* 版本：v3.1.0
+* 原创：吴育民
+* 网站：https://089858.com
+* 使用说明：https://github.com/wuyumin/whatdevice
+*/
 ;(function(){
     var whatdevice = {};
     var myUA = window.navigator.userAgent.toLowerCase();
@@ -57,6 +57,11 @@
     * 是否微信浏览器：返回Boolean。
     */
     whatdevice.isWechat = /(?:micromessenger)/.test(myUA);
+
+    /*
+    * 是否微信小程序：返回Boolean。
+    */
+    whatdevice.isMiniProgram = window.__wxjs_environment === 'miniprogram';
     
     /*注册全局变量*/
     window.whatdevice = whatdevice;

@@ -1,5 +1,5 @@
 // 引入gulp
-var gulp = require('gulp'),
+const gulp = require('gulp'),
 
 // 引入组件
     pkg = require('./package.json'), // 读取package.json文件信息

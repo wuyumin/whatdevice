@@ -1,14 +1,16 @@
 {
   "name": "whatdevice",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "homepage": "https://github.com/wuyumin/whatdevice",
-  "description": "上网设备检测及处理。支持自动检测并跳转到手机网站或电脑网站，是否手机或电脑访问，是否微信访问等功能。",
+  "description": "上网设备检测及处理。支持自动检测并跳转到手机网站或电脑网站，是否手机或电脑访问，是否微信访问，是否微信小程序访问等功能。",
   "keywords": [
     "whatdevice",
     "device",
     "设备",
     "手机",
-    "电脑"
+    "电脑",
+    "微信",
+    "小程序"
   ],
   "author": {
     "name": "Yumin Wu",
