@@ -1,7 +1,10 @@
-# Git过滤文件
-/.idea/
-/node_modules/
+# Git 忽略文件
 Thumbs.db
 .DS_Store
 *.swp
+
+/.idea/
+
+/node_modules/
+package-lock.json
 npm-debug.log*
